@@ -122,10 +122,11 @@ function CalculatePLs(i) {
 }
 
 function CalculateAvgs() {
+  tempVal = 0; //reset temp val to be reused within this func to calculate avgChange
   for(var i = 0; i < avgChangeArr.length; i++) {
-    avgChange = avgChange + avgChangeArr[i];
+    tempVal += avgChangeArr[i];
   }
-  avgChange = avgChange / (totalMonths - 1);
+  avgChange = tempVal / (totalMonths - 1);
 }
 
 console.log("Financial Analysis\n------------------");
