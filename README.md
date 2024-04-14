@@ -19,4 +19,4 @@ This single static website can be deployed either locally or to a webserver. Wit
 
 ### GitHub Pages:
 
-[https://sunielmudhar.github.io/Console-Finances/](https://sunielmudhar.github.io/Console-Finances/)
+[https://sunielmudhar.github.io/Console-Finances/](https://sunnymudhar.github.io/Console-Finances/)
